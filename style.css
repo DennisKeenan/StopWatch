@@ -1,4 +1,45 @@
-html, body {
-  height: 100%;
-  width: 100%;
+body {
+  background: #252525;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+  color:white;
+  text-align:center;
+  position: absolute;
+  top: 20%;
+  left:25%;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 54px;
+  text-transform: uppercase;
+}
+#time{
+  letter-spacing: 7px;
+  font-size:70px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+button{
+  cursor:pointer;
+  font-size:16px;
+  padding:18px 10px;
+  margin: 10px;
+  width:180px;
+  background: #FA4753;
+  color:white;
+  border: solid 2px white;
+  box-shadow: 5px 5px 5px rgb(180, 177, 177);
+  border-radius: 5px;
+}
+
+button:hover{
+	background:white;
+	border: solid 2px #FA4753;
+	color:#FA4753;
 }
